@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'John Smith',
-  header: "Hi, I'm John Smith",
-  description: "I'm a college junior currently taking up Computer Science in University X. I'm a freelance developer with 4 years of experience, having worked with clients such as X, Y, Z. I enjoy building everything from small business sites to rich interactive web apps.",
-  name: 'John Smith',
+  title: 'Nolan Magee',
+  header: "Hi, I'm Nolan Magee",
+  description: "I'm a student studying Computer Engineering up at SFU. I practice full stack web development, focusing on React and Node. Check out some stuff I made!",
+  name: 'Nolan Magee',
   footerTitle: 'Software Engineer',
-  email: 'johnsmith@mail.com',
+  email: 'nmagee@sfu.ca',
   cta: {
     label: 'Get my resume',
     url: 'resume.pdf',
@@ -19,12 +19,12 @@ module.exports = {
   ],
   projects: [
     {
-      name: 'Combustion',
-      description: 'Combustion is a sleek, modern web client for the transmission bittorrent client.',
-      tags: ['React', 'Javascript', 'Webpack', 'Mobx', 'CSSModules'],
+      name: 'Chat with Redux',
+      description: 'This chat app uses React/Redux with Websockets, allowing multiple users to communicate in real time. Open multiple tabs to test it out!',
+      tags: ['React', 'Javascript', 'Redux', 'WebSocket'],
       alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'combustion.png',
-      url: '//'
+      url: 'https://fast-refuge-84984.herokuapp.com/'
     },
     {
       name: 'Merc-01',
@@ -36,9 +36,9 @@ module.exports = {
   ],
   experiences: [
     {
-      title: 'Senior Software Engineer at Company A',
-      timeline: 'Jan 2016 - Present',
-      description: 'Implemented Gamification for system',
+      title: 'QA Co-op at Spot Solutions',
+      timeline: 'Sep 2016 - Dec 2016',
+      description: 'Testing for bugs and implementing fixes when possible',
     },
     {
       title: 'Fullstack Software Engineer at Company B',
