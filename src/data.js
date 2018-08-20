@@ -27,11 +27,11 @@ module.exports = {
       url: 'https://fast-refuge-84984.herokuapp.com/'
     },
     {
-      name: 'Merc-01',
-      description: 'Merc-01 is a fast paced twin-stick shooter built on top of pyglet.',
-      tags: ['Python', 'WebGL', 'Pyglet'],
+      name: "What's Here?",
+      description: 'Select a place anywhere on the globe to see what is going on there!',
+      tags: ['React', 'Firebase'],
       img: 'merc-01.png',
-      url: '//'
+      url: 'https://whatshere-1529274273415.firebaseapp.com/'
     }
   ],
   experiences: [
