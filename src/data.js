@@ -38,8 +38,10 @@ module.exports = {
     {
       title: 'QA Co-op at Spot Solutions',
       timeline: 'Sep 2016 - Dec 2016',
-      description: 'Testing for bugs and implementing fixes when possible',
-    },
+      description: 'Tested for bugs and implemented fixes with HTML and CSS on Sharepoint based sites',
+
+    }
+    /*,
     {
       title: 'Fullstack Software Engineer at Company B',
       timeline: 'Feb 2015 - Dec 2015',
@@ -49,6 +51,7 @@ module.exports = {
         'Added Abstractions on Server API to Minimize Duplicate Code'
       ]
     }
+    */
   ],
   testimonials: [
     {
