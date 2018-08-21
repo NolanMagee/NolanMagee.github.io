@@ -67,8 +67,8 @@ module.exports = {
       title: 'CEO at Company'
     },
     {
-      quote: 'Wow, thank you for this, you probably have the most intuitive explanation for this problem!',
-      name: 'Person Name'
+      quote: 'A capable, intelligent worker. He is very handsome too',
+      name: "Nolan's Mom"
     }
   ]
 }
