@@ -43,7 +43,7 @@ module.exports = {
   ],
   experiences: [
     {
-      title: 'QA Co-op at Spot Solutions',
+      title: 'QA / Junior Developer Co-op at Spot Solutions',
       timeline: 'Sep 2016 - Dec 2016',
       description: 'Tested for bugs and implemented fixes with HTML and CSS on Sharepoint based sites',
 
@@ -61,11 +61,7 @@ module.exports = {
     */
   ],
   testimonials: [
-    {
-      quote: 'Incredibly talented and hardworking. A super friendly guy who is a frequent communicator',
-      name: 'Person Name',
-      title: 'CEO at Company'
-    },
+
     {
       quote: 'A capable, intelligent worker. He is very handsome too',
       name: "Nolan's Mom"
