@@ -23,21 +23,21 @@ module.exports = {
       description: 'This chat app uses React/Redux with Websockets, allowing multiple users to communicate in real time. Open multiple tabs to test it out!',
       tags: ['React', 'Javascript', 'Redux', 'WebSocket'],
       alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
-      img: 'combustion.png',
+      //img: 'combustion.png',
       url: 'https://fast-refuge-84984.herokuapp.com/'
     },
     {
       name: "What's Here?",
       description: 'Select a place anywhere on the globe to see what is going on there!',
       tags: ['React', 'Firebase'],
-      img: 'merc-01.png',
+      //img: 'merc-01.png',
       url: 'https://whatshere-1529274273415.firebaseapp.com/'
     },
     {
       name: "MongoMart",
       description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart!',
       tags: ['Express', 'MongoDB', 'Nunjucks'],
-      img: 'merc-01.png',
+      //img: 'merc-01.png',
       url: 'https://still-mountain-47794.herokuapp.com/'
     }
   ],
