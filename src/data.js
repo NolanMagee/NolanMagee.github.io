@@ -32,14 +32,14 @@ module.exports = {
       name: "MongoMart",
       description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart! It connects to my database cluster hosted on MongoDB Atlas',
       tags: ['Express', 'MongoDB', 'Nunjucks'],
-      img: 'MongoMart.png',
+      img: 'MongoMart.PNG',
       url: 'https://still-mountain-47794.herokuapp.com/'
     },
     {
       name: "What's Here?",
       description: 'Select a place anywhere on the globe to see what is going on there! Uses my own Google Firebase Cloud Function to perform the Oauth necessary for the Twitter API',
       tags: ['React', 'Firebase'],
-      img: 'whatshere.png',
+      img: 'whatshere.PNG',
       url: 'https://whatshere-1529274273415.firebaseapp.com/'
     }
 
