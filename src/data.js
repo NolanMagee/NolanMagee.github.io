@@ -18,6 +18,7 @@ module.exports = {
     { icon: 'linkedin-squared', url: '//' },
   ],
   projects: [
+    /*
     {
       name: 'Chat with Redux',
       description: 'This chat app uses React/Redux with Websockets, allowing multiple users to communicate in real time. Open multiple tabs to test it out!',
@@ -26,20 +27,22 @@ module.exports = {
       //img: 'combustion.png',
       url: 'https://fast-refuge-84984.herokuapp.com/'
     },
-    {
-      name: "What's Here?",
-      description: 'Select a place anywhere on the globe to see what is going on there!',
-      tags: ['React', 'Firebase'],
-      //img: 'merc-01.png',
-      url: 'https://whatshere-1529274273415.firebaseapp.com/'
-    },
+    */
     {
       name: "MongoMart",
-      description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart!',
+      description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart! It connects to my database cluster hosted on MongoDB Atlas',
       tags: ['Express', 'MongoDB', 'Nunjucks'],
-      //img: 'merc-01.png',
+      img: 'MongoMart.png',
       url: 'https://still-mountain-47794.herokuapp.com/'
+    },
+    {
+      name: "What's Here?",
+      description: 'Select a place anywhere on the globe to see what is going on there! Uses my own Google Firebase Cloud Function to perform the Oauth necessary for the Twitter API',
+      tags: ['React', 'Firebase'],
+      img: 'whatshere.png',
+      url: 'https://whatshere-1529274273415.firebaseapp.com/'
     }
+
   ],
   experiences: [
     {
