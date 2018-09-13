@@ -10,12 +10,12 @@ module.exports = {
     url: 'resume.pdf',
   },
   socials: [
-    { icon: 'twitter', url: '//' },
-    { icon: 'github-circled', url: '//' },
-    { icon: 'mail-alt' }, // mail alt automatically links to mailto:email
-    { icon: 'dribbble', url: '//' },
-    { icon: 'skype', url: '//' },
-    { icon: 'linkedin-squared', url: '//' },
+    //{ icon: 'twitter', url: '//' },
+    { icon: 'github-circled', url: 'https://github.com/NolanMagee' },
+    //{ icon: 'mail-alt' }, // mail alt automatically links to mailto:email
+    //{ icon: 'dribbble', url: '//' },
+    //{ icon: 'skype', url: '//' },
+    { icon: 'linkedin-squared', url: 'https://www.linkedin.com/in/nolan-magee' },
   ],
   projects: [
     /*
@@ -30,7 +30,7 @@ module.exports = {
     */
     {
       name: "MongoMart",
-      description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart! It connects to my database cluster hosted on MongoDB Atlas',
+      description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart! It connects to my database cluster hosted on MongoDB Atlas. (May have to refresh the page due to Heroku free hosting)',
       tags: ['Express', 'MongoDB', 'Nunjucks'],
       img: 'MongoMart.PNG',
       url: 'https://still-mountain-47794.herokuapp.com/'
@@ -46,22 +46,17 @@ module.exports = {
   ],
   experiences: [
     {
+      title: 'IT Help Desk Technician at Mark Anthony Group',
+      timeline: 'Sep 2017 - Jan 2018',
+      description: 'Communicated with a team of technicians to troubleshoot complex software, hardware, and network issues for staff over multiple departments in a timely manner'
+    },
+    {
       title: 'QA / Junior Developer Co-op at Spot Solutions',
-      timeline: 'Sep 2016 - Dec 2016',
+      timeline: 'Sep 2015 - Dec 2015',
       description: 'Tested for bugs and implemented fixes with HTML and CSS on Sharepoint based sites',
 
     }
-    /*,
-    {
-      title: 'Fullstack Software Engineer at Company B',
-      timeline: 'Feb 2015 - Dec 2015',
-      responsibilities: [
-        'Worked with a global team of developers and artists for the implementation of new features in Existing Codebase of a Free-to-play MMO',
-        'Increased rate of tickets/tasks done by the team up to 300% within first few weeks!',
-        'Added Abstractions on Server API to Minimize Duplicate Code'
-      ]
-    }
-    */
+    
   ],
   testimonials: [
 
