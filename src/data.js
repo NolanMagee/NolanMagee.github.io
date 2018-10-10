@@ -18,16 +18,7 @@ module.exports = {
     { icon: 'linkedin-squared', url: 'https://www.linkedin.com/in/nolan-magee' },
   ],
   projects: [
-    /*
-    {
-      name: 'Chat with Redux',
-      description: 'This chat app uses React/Redux with Websockets, allowing multiple users to communicate in real time. Open multiple tabs to test it out!',
-      tags: ['React', 'Javascript', 'Redux', 'WebSocket'],
-      alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
-      //img: 'combustion.png',
-      url: 'https://fast-refuge-84984.herokuapp.com/'
-    },
-    */
+
     {
       name: "MongoMart",
       description: 'An ecommerce platform using MongoDB. Search, browse, and add items to cart! It connects to my database cluster hosted on MongoDB Atlas. (May have to refresh the page due to Heroku free hosting)',
@@ -41,6 +32,14 @@ module.exports = {
       tags: ['React', 'Firebase'],
       img: 'whatshere.PNG',
       url: 'https://whatshere-1529274273415.firebaseapp.com/'
+    },
+    {
+      name: 'Chat with Redux',
+      description: 'This chat app uses Node WebSocket server with React/Redux , allowing multiple users to communicate in real time. Open multiple tabs to test it out!',
+      tags: ['React', 'Javascript', 'Redux', 'WebSocket'],
+
+      img: 'chatredux.PNG',
+      url: 'https://fast-refuge-84984.herokuapp.com/'
     }
 
   ],
@@ -56,7 +55,7 @@ module.exports = {
       description: 'Tested for bugs and implemented fixes with HTML and CSS on Sharepoint based sites',
 
     }
-    
+
   ],
   testimonials: [
 
