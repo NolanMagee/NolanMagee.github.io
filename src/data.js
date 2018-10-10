@@ -35,11 +35,11 @@ module.exports = {
     },
     {
       name: 'Chat with Redux',
-      description: 'This chat app uses Node WebSocket server with React/Redux , allowing multiple users to communicate in real time. Open multiple tabs to test it out!',
+      description: 'This chat app uses Node WebSocket server with React/Redux , allowing multiple users to communicate in real time. Open multiple tabs to test it out! (It may take up to 30 seconds to start working. Still buggy!)',
       tags: ['React', 'Javascript', 'Redux', 'WebSocket'],
 
       img: 'chatredux.PNG',
-      url: 'https://fast-refuge-84984.herokuapp.com/'
+      url: 'https://fast-refuge-84984.herokuapp.com/app.js'
     }
 
   ],
